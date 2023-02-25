@@ -3,28 +3,99 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  h1 {
-    text-align: left;
+    height:100%;
+    width:100%;
     
   }
   
-header { background-color: #063970;
+  
+header { background-color: black;
   align-items: center;
-  padding:10px;
+  padding:5px;
   display:flex;
-}
-
-
-nav ul {
-  display:flex;
-  list-style: none;
-  padding: 20px;
-
-}
-nav li {
-  margin-right: 20px;
   
 }
 
+h1{
+  font-size:280%;
+  color:#8f7eae;
+
+
+}
+
+header img {
+  height: 40px;
+}
+
+nav ul {
+  display:flex;
+  align-content: left;
+  list-style: none;
+  padding: 20px;
+  
+}
+nav li {
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  align-content: center;
+  
+}
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Fonts/Montserrat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav li a 
+{
+  text-decoration:none;
+  color:#707070;
+  font-size:150%;
+}
+
+nav a:hover
+{
+  color:#8f7eae
+
+
+}
+
+.download-button {
+  float:left;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: #8f7eae;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+.downloadMain a:hover
+{
+  color:black;
+}
+.downloadMain
+{
+  margin-left:30%;
+  margin-top:10.5%;
+}
+
+.downloadMain p
+{margin-left: 9%;
+  font-family: 'Montserrat', sans-serif;
+  font-size:200%;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color:#8f7eae
+}
