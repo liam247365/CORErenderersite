@@ -5,7 +5,11 @@ body {
     padding: 0;
     height:100%;
     width:100%;
-    
+    background: linear-gradient(to bottom, #999999, #3c3b3b);
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
   }
   
   
@@ -98,4 +102,16 @@ nav a:hover
 p{
   font-family: 'Montserrat', sans-serif;
   color:#8f7eae
+}
+
+.empty-space {
+  height: 50%;
+  margin-top:2%;
+  margin-left:2%;
+  color: #33094d;
+
+}
+
+.empty-space h2 {
+  text-align: center;
 }
