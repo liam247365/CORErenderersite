@@ -1,11 +1,11 @@
 body {
-    background-color: #707070;
+    background-color: #aeabab;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height:100%;
     width:100%;
-    background: linear-gradient(to bottom, #999999, #3c3b3b);
+    background: linear-gradient(to bottom, #ffffff, #8f7eae);
         height: 100vh;
         margin: 0;
         padding: 0;
@@ -97,6 +97,7 @@ nav a:hover
 {margin-left: 9%;
   font-family: 'Montserrat', sans-serif;
   font-size:200%;
+  color:#33094d;
 }
 
 p{
@@ -115,3 +116,8 @@ p{
 .empty-space h2 {
   text-align: center;
 }
+
+
+body {zoom: 75%;}
+
+ 
