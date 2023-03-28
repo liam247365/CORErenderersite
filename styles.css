@@ -89,7 +89,7 @@ nav a:hover
 }
 .downloadMain
 {
-  margin-left:30%;
+  margin-left:32.5%;
   margin-top:10.5%;
 }
 
@@ -108,10 +108,14 @@ p{
 .empty-space {
   height: 50%;
   margin-top:2%;
-  margin-left:2%;
+  
   color: #33094d;
 
 }
+
+
+
+
 
 .empty-space h2 {
   text-align: center;
@@ -120,4 +124,31 @@ p{
 
 body {zoom: 75%;}
 
- 
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float:left;
+  width: 33%;
+  padding: 2px;
+  
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  width:100%;
+  margin:2%;
+}
+
+header {
+  position:fixed;
+  width: 100%;
+  margin-top:0px;
+  top:0;
+}
+
+html {
+  margin-top:6.5%
+}
