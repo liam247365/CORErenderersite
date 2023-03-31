@@ -5,7 +5,8 @@ body {
     padding: 0;
     height:100%;
     width:100%;
-    background: linear-gradient(to bottom, #ffffff, #8f7eae);
+    background: linear-gradient(to bottom, #ffffff, #8f7eae); 
+    
         height: 100vh;
         margin: 0;
         padding: 0;
@@ -13,12 +14,28 @@ body {
   }
   
   
-header { background-color: black;
+header { 
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(20px);
+  
+  box-shadow:0 8px 12px rgba(0,0,0,0.2);
   align-items: center;
-  padding:5px;
+  padding:10px;
   display:flex;
+  transform:translateY(10px);
+  margin-left: 10px;
+  
+  border-radius: 20px;
+  border-collapse: separate; 
+  
+ 
   
 }
+
+
+
+
+  
 
 h1{
   font-size:280%;
@@ -144,11 +161,91 @@ body {zoom: 75%;}
 
 header {
   position:fixed;
-  width: 100%;
+  width: 98.5%;
   margin-top:0px;
   top:0;
 }
 
 html {
-  margin-top:6.5%
+  margin-top:7.5%
+}
+
+.firstimpression {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top:20%;
+  height:100vh;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:auto;
+  margin-top: -5%;
+}
+
+
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #8f7eae;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #33094d;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.toDownloadPage {
+  zoom: 150%;
+}
+
+
+.logoButton {
+  
+  
 }
