@@ -1,32 +1,33 @@
 body {
-    background-color: #aeabab;
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height:100%;
     width:100%;
-    background: linear-gradient(to bottom, #ffffff, #8f7eae); 
+    background: linear-gradient(to bottom, #040000, #3a0271) fixed;; 
     
-        height: 100vh;
+        height: 200vh;
         margin: 0;
         padding: 0;
-        background-attachment: fixed;
+        
   }
+
+
+  
   
   
 header { 
   backdrop-filter:blur(10px);
   -webkit-backdrop-filter:blur(20px);
   
-  box-shadow:0 8px 12px rgba(0,0,0,0.2);
+  
   align-items: center;
   padding:10px;
   display:flex;
   transform:translateY(10px);
   margin-left: 10px;
   
-  border-radius: 20px;
-  border-collapse: separate; 
   
  
   
@@ -42,6 +43,11 @@ h1{
   color:#8f7eae;
 
 
+}
+
+header {
+  border-bottom: 0.3px solid rgb(36, 35, 35);
+  background-color: #040000;
 }
 
 header img {
@@ -80,16 +86,14 @@ nav li a
 
 nav a:hover
 {
-  color:#8f7eae
-
-
+  color:#8f7eae;
 }
 
 .download-button {
-  float:left;
+  float: left;
   padding: 20px 40px;
   border-radius: 8px;
-  background-color: #8f7eae;
+  background-color: #3a0995;
   color: white;
   text-decoration: none;
   font-size: 24px;
@@ -100,21 +104,31 @@ nav a:hover
   
 }
 
+.buttons
+{display: flex;}
+
 .downloadMain a:hover
 {
   color:black;
 }
 .downloadMain
 {
-  margin-left:32.5%;
-  margin-top:10.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  
+    
 }
+
+
 
 .downloadMain p
 {margin-left: 9%;
   font-family: 'Montserrat', sans-serif;
   font-size:200%;
-  color:#33094d;
+  color:#ffffff;
 }
 
 p{
@@ -170,16 +184,11 @@ html {
   margin-top:7.5%
 }
 
-.firstimpression {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-top:20%;
-  height:100vh;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom:auto;
-  margin-top: -5%;
+
+
+.container img {
+  margin-bottom: 40%;
+  width: 90%;
 }
 
 
@@ -244,8 +253,6 @@ svg {
   zoom: 150%;
 }
 
-
-.logoButton {
-  
-  
+.blur-image {
+  filter: blur(8px); /* Pas de gewenste waarde aan om de mate van vervaging aan te passen */
 }
